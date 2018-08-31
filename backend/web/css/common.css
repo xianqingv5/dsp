@@ -1,0 +1,146 @@
+html {
+    font-size: 12px;
+}
+body {
+    font-size: 62.5%;
+    margin: 0;
+    font-family: sans-serif;
+    line-height: 1.4;
+    color: #606266;
+    -webkit-text-size-adjust: 100%;
+    background: #fff;
+    overflow: scroll;
+}
+table {
+    text-align: center;
+}
+table th{
+    text-align: center;
+}
+table td{
+    vertical-align: middle !important;
+}
+.transfer-input{
+    width: 496px;
+}
+.form-search{
+    width: 200px;
+}
+.wrap{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.wrapper img{
+width: 100%;
+height: auto;
+}
+
+.wrapper{
+display: grid;
+grid-auto-columns: 230px 1fr;
+grid-auto-rows: 50px 1fr;
+margin: 0 !important;
+padding: 0 !important;
+
+}
+.breadcrumbDocker{
+height: 50px;
+padding-left: 38px;
+border-top: 1px solid #e0e0e0;
+border-bottom: 1px solid #e0e0e0;
+background: #fff;
+}
+
+.mainDocker{
+    background: #f0f2f8;
+}
+
+.base-box-shadow{
+    box-shadow: 5px 5px 10px 0 #ccc;
+}
+
+/* login */
+.site-login{
+    width: 500px;
+}
+.check_language{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 18px;
+}
+/* nav */
+.navbarDocker{
+width: 100%;
+height: 50px;
+grid-column-start: 1;
+grid-column-end: 3;
+font-size: 16px;
+}
+.signOut{
+padding: 0 50px;
+border-left: 1px solid #ccc;
+}
+.userIcon{
+padding: 0 20px;
+font-size: 20px;
+}
+.navLeft{
+width: 230px;
+height: 100%;
+}
+/* sidebar */
+.sidebarDocker{
+    font-size: 14px;
+    padding-top:20px;
+}
+.sidebar-transition{
+    transition: all 1s ease;
+}
+.sidebarDocker{
+    background: #1f2637;
+}
+.sidebarBox a{
+    color: #cfd0d2 !important;
+}
+.sidebar-title{
+    padding: 10px 0;
+    background: #161b28;
+}
+.sidebar-icon-title-right{
+    margin-right: 10px;
+}
+.act .sidebar-title{
+    background: #000;
+}
+.act .sidebar-icon-title-right{
+    transform: rotateZ(180deg);
+}
+.act .sidebar-con{
+    height: auto;
+}
+.sidebar-icon{
+    font-size: 24px;
+    margin: 0 10px;
+}
+.sidebar-con{
+    padding-left: 30px;
+    background: #161b28;
+    height: 0;
+    overflow: hidden;
+}
+.sidebar-text{
+    padding: 8px 0;
+}
+.sidebar-icon-text{
+    font-size: 16px;
+    margin-right: 5px;
+}
+/* content */
+.content{
+    padding: 0 30px;
+}
+.inputobj{
+    width: 300px;
+}
